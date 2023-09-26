@@ -1,7 +1,7 @@
 let heyButton = document.querySelector('button');
 heyButton.addEventListener('click',inputMsg );
 function inputMsg(){
-    let name = prompt('write your name.');
+    var name = prompt('write your name.');
     heyButton.textContent= 'your name is :' + name;
 }
 /*let namasteBtn = document.querySelector('button');
