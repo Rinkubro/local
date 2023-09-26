@@ -1,0 +1,13 @@
+let heyButton = document.querySelector('button');
+heyButton.addEventListener('click',inputMsg );
+function inputMsg(){
+    let name = prompt('write your name.');
+    heyButton.textContent= 'your name is :' + name;
+}
+/*let namasteBtn = document.querySelector('button');
+namasteBtn.addEventListener('click', inputMsg);
+
+function inputMsg() {
+    let name = prompt('Enter Name of Student');
+    namasteBtn.textContent = 'Roll No. 1:' + name;
+}*/
